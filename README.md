@@ -1,4 +1,4 @@
-# learnin-python-for-mlops
+# learning-python-for-mlops
 A hands-on Python learning roadmap for MLOps, featuring modular projects, production-ready architecture, API integration, and clean code best practices.
 everything i learn i do about it a project to solidify my knowledge 
 
