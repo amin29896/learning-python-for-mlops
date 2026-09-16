@@ -1,0 +1,1 @@
+to download needed dependencies type: pip install -r requirements.txt
