@@ -1,0 +1,11 @@
+{
+	"id": "req-001" ,
+	"data_type": "text" ,
+	"payload":{
+		"text":"the service is absolutely fantastic",
+		"language":"eng",
+		"feeling":"happy"
+	
+	},
+	"timestamp":"2026-09-23T09:30:00Z"
+}

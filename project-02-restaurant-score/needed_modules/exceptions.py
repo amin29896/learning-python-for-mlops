@@ -1,0 +1,3 @@
+class DataFileEmptyError(Exception):
+    pass
+
