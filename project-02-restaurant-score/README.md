@@ -1,0 +1,1 @@
+in this project i have practised what i've learned such as asynchronous programming,using modules,file handling,using json files,using exceptions and using dataclasses.it's a little project but has many benefits for me to solidify my knowledge and practise it even in a little project 
