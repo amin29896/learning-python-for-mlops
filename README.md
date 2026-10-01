@@ -9,6 +9,7 @@ A structured, hands-on roadmap designed to master Python concepts for **MLOps (M
 | Project | Description | Key Topics | Status |
 | :--- | :--- | :--- | :--- |
 | **[Project 01: Smart Calc](./project-01-smart-calc)** | Production-ready modular calculator | `python-dotenv`, `venv`, Custom Exceptions, Clean Architecture |
+| **[Project 02: restaurant score](./project-02-restaurant-score)** | simulation of an ml model | asynchronous programming,data classes, file handling,  json files  , custom exceptions | 
 ---
 
 ##  Repository Architecture
