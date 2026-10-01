@@ -1,6 +1,7 @@
 from needed_modules import *
 from pathlib import Path
 import asyncio
+from time import ctime
 async def main():
     try:
 
@@ -20,12 +21,16 @@ async def main():
             if r.status=="SUCCESS":
                 success+=1
                 print(f"SUCCESS {r.filename} , ID: {r.request_id}, Prediction : {r.prediction}, EXECUTION TIME : {r.execution_time}")
+
                 tot_score+=r.prediction["score"]
             else:
                 failed+=1
             total_time+=r.execution_time
         print("-"*50)
         print(f"SUMMARY:{success} succeeded and {failed} failed , AVG TIME : {round(total_time/len(results),4)}, GLOBAL SCORE : {round(tot_score/success,4)} ")
+        timestamp=ctime()
+        with open("output/output.txt","a") as f:
+            f.write(f"{timestamp} SUMMARY:{success} succeeded and {failed} failed , AVG TIME : {round(total_time/len(results),4)}, GLOBAL SCORE : {round(tot_score/success,4)} ")
     except FileNotFoundError:
         print("data file not found")
     except DataFileEmptyError:
